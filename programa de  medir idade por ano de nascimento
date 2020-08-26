@@ -1,0 +1,45 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : silvia
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Wendel Ventura de Almeida
+// Data atual  : 07/08/2020
+Var
+// Seção de Declarações das variáveis 
+nome1: caracter
+nome2: caracter
+anoatual:inteiro
+ano1:inteiro
+ano2 : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("programa se idade por ano de nascimento")
+escreval("---------------------------------------")
+escreval()
+escreva ("qual o ano de execução do programa? ")
+  leia (anoatual)
+  escreval ()
+escreva ("qual seu nome?")
+   leia (nome1)
+   escreval()
+escreva ("qual sua data de nascimento? ")
+leia (ano1)
+escreval()
+escreva ("seu nome é  " ,nome1, " e você tem" ,anoatual-ano1,"anos" )
+escreval()
+escreval ()
+escreva ("qual o nome do seu amigo ?")
+leia (nome2)
+escreval()
+escreva("quando seu amigo nasceu?")
+ leia (ano2)
+ escreval ()
+ escreva ("seu nome é  " ,nome2, " e você tem" ,anoatual-ano2,"" )
+ escreval ()
+ se anoatual-ano1 <= anoatual-ano2 entao
+ escreval ("o "  , nome2 ,  " é mais velho ou na mesma idade que ",nome1,"")
+ senao
+ escreval ("o "  , nome2 , " é mais novo que ",nome1,"")
+ fimse
+Fimalgoritmo
